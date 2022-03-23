@@ -15,7 +15,7 @@ public class Nyugta4 {
         String duplaVonal = "====================";
         String szaggatottVonal = "--------------------";
         String rovidVonal = "_______";
-        String rovidVonalValaszto = "      ";
+        String rovidVonalValaszto = String.format("%6s","");
 
         String egesz = "";
         egesz += (csillagok + "\n");
@@ -39,9 +39,9 @@ public class Nyugta4 {
         egesz += (rovidVonal + "\n");
         egesz += (" Dátum");
         egesz += (rovidVonalValaszto);
-        egesz += ("   Név\n");
+        egesz += String.format("%3sNév\n","");
         egesz += (csillagok + "\n");
-        egesz += ("        CÉG\n");
+        egesz += String.format("%8sCÉG\n","");
         egesz += (csillagok + "\n");
         System.out.println(egesz);
     }

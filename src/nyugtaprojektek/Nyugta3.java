@@ -21,7 +21,7 @@ public class Nyugta3 {
         final String eur = "\u20ac";
         String szaggatottVonal = "--------------------";
         String rovidVonal = "_______";
-        String rovidVonalValaszto = "      ";
+        String rovidVonalValaszto = String.format("%6s","");
         String egesz = "";
         
         egesz += (csillagok + "\n");
@@ -45,9 +45,9 @@ public class Nyugta3 {
         egesz += (rovidVonal + "\n");
         egesz += (" Dátum");
         egesz += (rovidVonalValaszto);
-        egesz += ("   Név\n");
+        egesz += String.format("%3sNév\n","");
         egesz += (csillagok + "\n");
-        egesz += ("        CÉG\n");
+        egesz += String.format("%8sCÉG\n","");
         egesz += (csillagok + "\n");
         System.out.println(egesz);
     }
