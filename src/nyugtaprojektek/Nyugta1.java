@@ -3,30 +3,32 @@ package nyugtaprojektek;
 public class Nyugta1 {
 
     public static void main(String[] args) {
-        System.out.println("******************");
-        System.out.println("     Nyugta 1");
-        System.out.println("******************");
-        System.out.println("Tétel 1:    350 Ft");
-        System.out.println("Tétel 2:     90 Ft");
-        System.out.println("Tétel 3:    650 Ft");
-        System.out.println("==================");
-        System.out.println("Összesen:  1090 Ft");
-        System.out.println("------------------");
-        System.out.println("Kedvezmény: 109 Ft");
-        System.out.println("(10%)");
-        System.out.println("==================");
-        System.out.println("Fizetendő:  981 Ft");
-        System.out.println("------------------");
-        System.out.println("");
-        System.out.print("_______");
-        System.out.print("   ");
-        System.out.println("_______");
-        System.out.print(" Dátum");
-        System.out.print("   ");
-        System.out.println("   Név");
-        System.out.println("******************");
-        System.out.println("        CÉG");
-        System.out.println("******************");
+        String nyugta1="";
+        nyugta1+=("******************\n");
+        nyugta1+=("     Nyugta 1\n");
+        nyugta1+=("******************\n");
+        nyugta1+=("Tétel 1:    350 Ft\n");
+        nyugta1+=("Tétel 2:     90 Ft\n");
+        nyugta1+=("Tétel 3:    650 Ft\n");
+        nyugta1+=("==================\n");
+        nyugta1+=("Összesen:  1090 Ft\n");
+        nyugta1+=("------------------\n");
+        nyugta1+=("Kedvezmény: 109 Ft\n");
+        nyugta1+=("(10%)\n");
+        nyugta1+=("==================\n");
+        nyugta1+=("Fizetendő:  981 Ft\n");
+        nyugta1+=("------------------\n");
+        nyugta1+=("\n");
+        System.out.print("_______\n");
+        System.out.print("   \n");
+        nyugta1+=("_______\n");
+        System.out.print(" Dátum\n");
+        System.out.print("   \n");
+        nyugta1+=("   Név\n");
+        nyugta1+=("******************\n");
+        nyugta1+=("        CÉG\n");
+        nyugta1+=("******************\n");
+        System.out.println(nyugta1);
     }
     
 }

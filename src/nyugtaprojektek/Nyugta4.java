@@ -1,4 +1,5 @@
 package nyugtaprojektek;
+
 public class Nyugta4 {
 
     //több metódusnak is látnia kell:
@@ -80,8 +81,16 @@ public class Nyugta4 {
     }
 
     private static void eurobanKiir(int fizetendo) {
+
+        int tetel1 = 350, tetel2 = 90, tetel3 = 1320;
+        int osszesen = tetel1 + tetel2 + tetel3;
+        int szervizDijMertek = 10;
+        int szervizDij = osszesen / szervizDijMertek;
+
         double euro = fizetendo / 350.0;
+        final String HUF = "Ft";
         final String eur = "\u20ac";
+
         System.out.printf("%10s%7.2f %s\n","", euro, eur);//
     }
     
@@ -98,5 +107,13 @@ public class Nyugta4 {
     private static void lablec() {
         System.out.println("        CÉG");
         vonal('*', 20, true);
+
+        String csillagok = "********************";
+        String duplaVonal = "====================";
+        String szaggatottVonal = "--------------------";
+        String rovidVonal = "_______";
+        String rovidVonalValaszto = String.format("%6s","");
+
+       
     }
 }
